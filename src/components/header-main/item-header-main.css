@@ -1,0 +1,22 @@
+.item-container{
+    height: 65px;
+    border-bottom: 2px solid rgb(21, 177, 255);
+    display: flex!important;
+    align-items: center !important;
+}
+
+.item-container .content{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;  
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.item-container:hover{
+    background: rgba(255, 255, 255, 0.116);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.87);
+}
+
+.item-container:active{
+    color: rgb(0, 170, 255);
+}

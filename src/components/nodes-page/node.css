@@ -1,0 +1,153 @@
+.container-node {
+    display: flex;
+    flex-direction: column;
+    font-family: Chivo;
+    font-size: 20px;    
+    margin-top: 20px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 7px; 
+    box-shadow: 0px 2px 5px 1px rgb(209, 209, 209);
+    margin-bottom: 20px;
+}
+
+.container-node .name{
+    width: 200px
+}
+
+/**/
+.container-node .url-node{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(212, 212, 212, 0.753); 
+    padding: 10px;
+}
+
+.url-node .url-value{
+    flex-grow: 1;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: blue
+}
+
+/**/
+.container-node .verify-node{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(212, 212, 212, 0.753); 
+    padding: 10px;
+}
+
+.verify-node .verify-value{
+    flex-grow: 1;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/**/
+.container-node .name-node{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(212, 212, 212, 0.753); 
+    padding: 10px;
+}
+
+.name-node .name-value{
+    flex-grow: 1;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/**/
+.container-node .validator-node{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(212, 212, 212, 0.753); 
+    padding: 10px;
+}
+
+.validator-node .validator-value{
+    flex-grow: 1;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/**/
+.container-node .block-node{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(212, 212, 212, 0.753); 
+    padding: 10px;
+}
+
+.block-node .block-value{
+    flex-grow: 1;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: blue
+}
+
+/**/
+.container-node .latency-node{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(212, 212, 212, 0.753); 
+    padding: 10px;
+}
+
+.latency-node .latency-value{
+    flex-grow: 1;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/**/
+.container-node .peers-node{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(212, 212, 212, 0.753); 
+    padding: 10px;
+}
+
+.peers-node .peers-value{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.peers-node .peers-value .peers-name{
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
